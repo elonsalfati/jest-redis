@@ -32,7 +32,7 @@ module.exports = {
 		},
 		autoStart: boolean, // by default, true
 	},
-	useSharedDBForAllJestWorkers: boolean // enables seperated database for each test worker. This disables the exported environment variable.
+	useSharedDBForAllJestWorkers: boolean, // enables seperated database for each test worker. This disables the exported environment variable.
 	redisURLEnvName: string, // the exported environment variable name
 }
 ```
