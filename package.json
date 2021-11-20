@@ -1,0 +1,38 @@
+{
+  "name": "jest-redis",
+  "version": "0.1.0",
+  "repository": "elonsalfati/jest-redis",
+  "author": {
+    "name": "Elon Salfati",
+    "email": "elon@salfatigroup.com",
+    "url": "https://salfatigroup.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test nyc jest"
+  },
+  "keywords": [
+    "redis",
+    "cache",
+    "cache-manager",
+    "jest",
+    "jest preset",
+    "jest environment"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "jest": {
+    "preset": "./jest-preset.js"
+  },
+  "devDependencies": {
+    "ioredis": "^4.28.0",
+    "jest": "^27.3.1",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "debug": "^4.3.2",
+    "redis-memory-server": "^0.5.0",
+    "uuid": "^8.3.2"
+  }
+}
